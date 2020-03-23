@@ -17,3 +17,6 @@ def Shotgun(*args, **kwargs):
 		kwargs["ca_certs"] = certsPath
 
 	return ShotgunOrig(*args, **kwargs)
+
+def getDummy(inId, inType="Project"):
+    return {"type": inType, "id": inId}
