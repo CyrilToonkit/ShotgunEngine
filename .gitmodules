@@ -1,0 +1,4 @@
+[submodule "pythonApi"]
+	path = pythonApi
+	url = https://github.com/shotgunsoftware/python-api.git
+	branch = master
